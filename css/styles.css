@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "League Spartan", sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }
 
 .rating {
@@ -32,7 +32,7 @@ ul {
   margin-inline: 4rem;
 }
 ul li {
-  font-family: "League Spartan", sans-serif;
+  font-family: 'League Spartan', sans-serif;
   color: hsl(300, 43%, 22%);
   font-weight: 220;
   padding-left: 0%;
@@ -46,29 +46,31 @@ ul li {
 
 header h1 {
   align-self: center;
-  color: var(--Onboarding-background-grey, #2d2d2d);
   text-align: center;
-  font-family: "League Spartan", sans-serif;
+  font-family: 'League Spartan', sans-serif;
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
   line-height: 49px;
+  color: hsl(300, 43%, 22%);
 }
 header p {
   align-self: stretch;
-  font-family: "League Spartan", sans-serif;
-  color: var(--Onboarding-background-grey, #2d2d2d);
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  color: hsl(303, 10%, 53%);
+  font-family: 'League Spartan', sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .opinion-costumer {
   align-self: stretch;
   color: white;
   text-align: center;
-  font-family: "League Spartan", sans-serif;
+  font-family: 'League Spartan', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -104,23 +106,12 @@ header p {
 
 .h3-name-costumer {
   color: white;
-  font-family: "League Spartan", sans-serif;
-}
-
-header h1 {
-  color: hsl(300, 43%, 22%);
-  font-family: "League Spartan", sans-serif;
-}
-header p {
-  color: hsl(303, 10%, 53%);
-  font-family: "League Spartan", sans-serif;
-  display: flex;
-  justify-content: center;
+  font-family: 'League Spartan', sans-serif;
 }
 
 .verified-costumer {
   color: hsl(333, 80%, 67%);
-  font-family: "League Spartan", sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }
 
 @media (width > 375px) {
